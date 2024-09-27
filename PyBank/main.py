@@ -90,9 +90,9 @@ def getDecrease(file):
             difference = amount1 - amount2
             changes.append(difference)
             index += 1
-    greatestdDecrease = max(changes)*-1
+    greatestDecrease = max(changes)*-1
     correctDate = file[50]
     decreaseDate = correctDate[:6]
-    return greatestdDecrease, decreaseDate
+    return greatestDecrease, decreaseDate
 
 main()

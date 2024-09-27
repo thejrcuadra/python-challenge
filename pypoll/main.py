@@ -1,5 +1,4 @@
 import os
-import csv
 
 def main():
     CSV_PATH = os.path.join('Resources', 'election_data.csv')
